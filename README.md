@@ -1,2 +1,2 @@
-# jeffwpotter.github.io
+# PersonalPage
 My personal webpage
