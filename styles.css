@@ -23,25 +23,39 @@
 .h1,  h1 {
     margin-top: 0px;
     margin-bottom: 10px;
-    padding-top: 400px;
+    padding-top: 200px;
     padding-bottom: 75px;
     font-size: 144px;
     color: #C1C1C2;
 }
 .h3, h3 {
-  padding-bottom: 400px;
+  padding-bottom: 200px;
   color: #C1C1C2;
 }
-.down-arrow-1 {
-  position: absolute;
-  top: 700px;
-  left: 900px;
+#downarrow {
   color: #C1C1C2;
+  padding-bottom: 180px!important;
+}
 
 }
 .content-box-2 {
   background-color: white;
   height: 600px;
+}
+.content-box-2 .p {
+  text-decoration: none;
+  font-size: 36px;
+  display: block;
+  text-align: left;
+  float: left;
+}
+
+#picofme {
+  float: right;
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 50%;
+  border-color: #C1C1C2;
 }
 
 .content-box-3 {
