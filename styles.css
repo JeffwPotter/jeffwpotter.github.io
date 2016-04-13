@@ -25,6 +25,9 @@
 
 #cp1 {
   font-size: 1.75em;
+  margin-left: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 .h1,  h1 {
     margin-top: 0px;
@@ -32,14 +35,14 @@
     padding-top: 200px;
     padding-bottom: 75px;
     font-size: 6em;
-    color: #C1C1C2;
+    color: white;
 }
 .h3, h3 {
   padding-bottom: 200px;
-  color: #C1C1C2;
+  color: white;
 }
 #downarrow {
-  color: #C1C1C2;
+  color: white;
   margin-bottom: auto;
 }
 
@@ -49,23 +52,70 @@
   height: 600px;
 }
 .content-box-2 .p {
+  margin-left: 100px;
+}
+
+#cb2 .row {
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 #picofme {
-  float: right;
   border-style: solid;
   border-width: 5px;
   border-radius: 50%;
   border-color: #C1C1C2;
+  display: block;
+  max-width: 100%;
+  height: auto;
   margin: auto;
 }
 
 .content-box-3 {
-  background-color: #143445;
-  height: 400px;
+  background-color: #2a6dac;
+  height: 600px;
+}
+#cb3h2 {
+  font-size: 4em;
+  text-align:center;
+  color: white;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+#perspage {
+  max-width: 75%;
+  height: auto;
+  margin: auto;
+  margin-bottom: 20px;
+}
+#fassup {
+  max-width:75%;
+  height: auto;
+  margin: auto;
+  margin-bottom: 20px;
 }
 
 .content-box-4 {
   background-color: #ABA79D;
-  height: 200px;
+  height: 600px;
+  margin-top: -50px;
+}
+#formname {
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-top: 50px;
+}
+
+.form-horizontal {
+  color: white;
+  font-size: 18px;
+  margin:auto !important;
+}
+
+#formsubmitbtn {
+  font-size: 1.5em;
 }

@@ -39,8 +39,8 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav" id="links">
             <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
-            <li><a href="#">About Me</a></li>
-            <li><a href="#">Contact Me</a></li>
+            <li><a href="#aboutme">About Me</a></li>
+            <li><a href="#contactme">Contact Me</a></li>
           </ul>
           <ul class="nav navbar-nav" id="icons" style = "float: right">
             <li><a href="http://www.github.com/jeffwpotter/"><i class="fa fa-github fa-2x"></i></a></li>
@@ -59,23 +59,23 @@
       <div class="content-box-1">
         <h1><strong>Hello, I'm Jeff</strong></h1>
         <h3>an aspiring junior developer</h2>
-          <a id="downarrow" href="#aboutme"><i class="fa fa-angle-double-down fa-5x"></i></a>
+          <a name=aboutme>
+            <a id="downarrow" href="#aboutme"><i class="fa fa-angle-double-down fa-5x"></i></a>
+          </div>
         </div>
       </div>
-    </div>
 
 
-    <!--Beginning of second content box -->
-    <div class="container-fluid">
-      <a name=aboutme>
+      <!--Beginning of second content box -->
+      <div id="cb2" class="container-fluid">
         <div class="row">
           <div class="content-box-2">
-            <div class="col-xs-4">
+            <div class="col-md-8">
               <p id="cp1">My name is Jeffrey Potter. I'm <strong>23</strong> years old and I live in <strong>Columbia, South Carolina</strong>. I am passionate about new technologies, and I enjoy learning new things as often as possible. I am self taught <strong>Web Developer</strong>, and I hope to soon be doing this professionally.</p>
             </div>
-            <div class="col-xs-6">
-            <img id="picofme" src="picfme.jpg">
-          </div>
+            <div class="col-md-4">
+              <img id="picofme" class="img-responsive" src="picfme.jpg">
+            </div>
           </div>
         </div>
       </div>
@@ -85,6 +85,19 @@
       <div class="container-fluid">
         <div class="row">
           <div class="content-box-3">
+            <div class="row">
+              <div class="col-md-12">
+                <h2 id="cb3h2">Projects</h2>
+              </div>
+            </div>
+            <div class="row">
+              <div id="projectpics" class="col-md-6">
+                <img id="perspage" class="img-responsive" src="perspage.png">
+              </div>
+              <div class="col-md-6">
+                <img id="fassup" class="img-responsive" src="fassupproj.png">
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -94,7 +107,27 @@
       <div class="container-fluid">
         <div class="row">
           <div class="content-box-4">
+            <h2 id="formname">Contact Me</h2>
+            <div class="container">
+              <form class="form-horizontal">
+                <div  class="col-md-8">
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Name</label>
+                    <input type="text" class="form-control input-lg" id="exampleInputName1" placeholder="Name">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control input-lg" id="exampleInputEmail1" placeholder="Email">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputMessage">Message</label>
+                    <textarea type="text"class="form-control input-lg" id="exampleInputMessage1" placeholder="Message" rows="5"></textarea>
+                  </div>
+                  <button id="formsubmitbtn" type="submit" class="btn btn-primary btn-block">Submit</button>
+                </form class="form-horizontal">
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </body>
+        <a name=contactme>
+        </body>
