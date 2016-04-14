@@ -112,21 +112,21 @@
           <div class="content-box-4">
             <h2 id="formname">Contact Me</h2>
             <div class="container">
-              <form class="form-horizontal">
+              <form class="form-horizontal" action="https://formspree.io/jeffreywpotter@gmail.com" method="post">
                 <div>
                   <div class="form-group">
-                    <label for="exampleInputEmail1">Name</label>
-                    <input type="text" class="form-control input-lg" id="exampleInputName1">
+                    <label for="Name">Name</label>
+                    <input type="text" class="form-control input-lg" id="name" name="name">
                   </div>
                   <div class="form-group">
-                    <label for="exampleInputEmail1">Email address</label>
-                    <input type="email" class="form-control input-lg" id="exampleInputEmail1">
+                    <label for="Email">Email</label>
+                    <input type="email" class="form-control input-lg" id="email" name="email">
                   </div>
                   <div class="form-group">
-                    <label for="exampleInputMessage">Message</label>
-                    <textarea type="text"class="form-control input-lg" id="exampleInputMessage1" rows="5"></textarea>
+                    <label for="Message">Message</label>
+                    <textarea type="text" class="form-control input-lg" id="message" name="message" rows="5"></textarea>
                   </div>
-                  <button id="formsubmitbtn" type="submit" class="btn btn-primary btn-block">Submit</button>
+                  <button id="formsubmitbtn" type="submit" value="send" class="btn btn-primary btn-block">Submit</button>
                 </form class="form-horizontal">
               </div>
             </div>
