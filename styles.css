@@ -13,6 +13,7 @@
 #icons {
   padding-top: 5px;
 }
+
 .content-box-1 {
   background-color: #143445;
   background-image: url("pattern.png");
@@ -73,9 +74,8 @@
 
 .content-box-3 {
   background-color: #2a6dac;
-  height: 100%;
   padding-bottom: 50px;
-  height: 600px;
+  height: auto;
 }
 #cb3h2 {
   font-size: 4em;
@@ -125,4 +125,12 @@
 
 #formsubmitbtn {
   font-size: 1.5em;
+}
+
+@media only screen and (max-width: 768px) {
+  #icons {
+    position:absolute;
+    top: 40px;
+    right: 25px;
+  }
 }
