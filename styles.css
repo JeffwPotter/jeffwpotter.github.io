@@ -127,10 +127,19 @@
   font-size: 1.5em;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 425px) {
   #icons {
     position:absolute;
     top: 40px;
     right: 25px;
   }
+}
+@media only screen and (max-width: 768px) {
+  #cp1 {
+    text-align: center;
+    margin: auto;
+    padding-bottom: 10px;
+  }
+
+
 }
